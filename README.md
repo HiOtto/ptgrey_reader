@@ -139,7 +139,9 @@ The Hardware trigger is to capture an image while the camera received a trigger 
 <img src="docs/line1.png">
 Buy the elements of the trigger cable in [JST NSHR-09V-S](https://www.digikey.hk/product-detail/zh/jst-sales-america-inc/NSHR-09V-S/455-2785-ND/3313624) and [JST ASSHLSSHL28W51](https://www.digikey.hk/product-detail/zh/jst-sales-america-inc/ASSHLSSHL28W51/455-3194-ND/6194849).
 <img src="docs/line2.jpg">
+
 **NOTICE: figure above shows, please reverse the position of GND and TRIGGER**
+
 Set `is_sync` as true in the launch file. And make sure the `rate` is larger than the trigger signal frequency.
 
 The Trigger signal is a high level signal.
